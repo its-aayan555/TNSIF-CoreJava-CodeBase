@@ -34,9 +34,8 @@ public class Person
 	//	method to show display person info
 	public void displayInfo() 
 	{
-		System.out.println("Name: "+name);
-		System.out.println("Address: "+address.getStreet()+" "+address.getCity()+
-				" "+address.getState()+" "+address.getPostalCode());
+		System.out.println("Name: " + name);
+		System.out.println("Address: " + address.getStreet() + " " + address.getCity() + " " + address.getState() + " " + address.getPostalCode());
 	}
 
 	@Override
