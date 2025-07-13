@@ -8,9 +8,9 @@ public class Executor
 	public static void main(String[] args) 
 	{	
 		
-		Address address = new Address("5903 Laxminagar", "Pune", "Maharashtra", "412105");
+		Address address = new Address("47/3 Ambegaon KH", "Pune", "Maharashtra", "411046");
 		
-		Person p = new Person("Datta",address);
+		Person p = new Person("Aayan", address);
 		p.displayInfo();
 		System.out.println(p);
 		
