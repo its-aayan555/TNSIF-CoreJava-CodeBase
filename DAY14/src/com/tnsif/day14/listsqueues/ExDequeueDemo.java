@@ -1,4 +1,4 @@
-package com.tnsif.day14.lists;
+package com.tnsif.day14.listsqueues;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
