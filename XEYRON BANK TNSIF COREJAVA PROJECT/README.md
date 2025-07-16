@@ -1,7 +1,7 @@
 
 # XEYRON BANK TNSIF (Console-Based Banking System)
 
-This project is a **console-based banking system** developed in Java. This project was created as part of a Code based Core Java study program by TNS India Foundation. It simulates essential banking operations, allowing administrators and customers to interact with the system through a text-based menu.
+This project is a **console-based banking system** developed in Java. This project was created as part of a code-based Core Java study program by TNS India Foundation. It simulates essential banking operations, allowing administrators and customers to interact with the system through a text-based menu.
 
 
 This project was created as part of a study program to practice:
@@ -80,22 +80,22 @@ If you don’t have MySQL installed:
 
 #### 1️⃣ Open Eclipse & Import the project:
 
-    File > Import > Existing Projects into Workspace
-  
-    Select the folder containing the project.
+  File > Import > Existing Projects into Workspace
+
+  Select the folder containing the project.
 
 
 #### 2️⃣ Add MySQL JDBC Driver:
 
-    Download the driver: MySQL Connector/J
-    
-    In Eclipse:
-    
-    Right-click the project > Build Path > Configure Build Path
-    
-    Under Libraries, click Add External JARs...
-    
-    Select the downloaded .jar file.
+  Download the driver: MySQL Connector/J
+  
+  In Eclipse:
+  
+  Right-click the project > Build Path > Configure Build Path
+  
+  Under Libraries, click Add External JARs...
+  
+  Select the downloaded .jar file.
 
 ---
 
