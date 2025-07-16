@@ -67,14 +67,40 @@ If you don’t have MySQL installed:
 
 2. Create a dedicated MySQL user:
     CREATE USER 'bankadmin'@'localhost' IDENTIFIED BY 'bankadminpass123';
-    GRANT ALL PRIVILEGES ON bankingsystemdb.* TO 'xeyronadmin'@'localhost';
+    GRANT ALL PRIVILEGES ON bankingsystemdb.* TO 'bankadmin'@'localhost';
     FLUSH PRIVILEGES;
 
 3. Use the database:
     USE bankingsystemdb;
 
-4. Tables Creation
-    It will get automatically created once you run the main Java file (ConsoleApp.java)
+4. Table Creation
+    It will get automatically created once you run the main Java file (ConsoleApp.java).
 
 
+## 🧩 Importing the Project in Eclipse
 
+Open Eclipse.
+
+Import the project:
+
+File > Import > Existing Projects into Workspace
+
+Select the folder containing the project.
+
+Add MySQL JDBC Driver:
+
+Download the driver: MySQL Connector/J
+
+In Eclipse:
+
+Right-click the project > Build Path > Configure Build Path
+
+Under Libraries, click Add External JARs...
+
+Select the downloaded .jar file.
+
+Refresh and clean the project:
+
+Project > Clean
+
+F5 to refresh.
