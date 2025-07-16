@@ -107,10 +107,8 @@ Right-click > Run As > Java Application.
 
 You’ll see the console menu:
 
-____________________________
-WELCOME TO XEYRON BANK TNSIF
-____________________________
 
+WELCOME TO XEYRON BANK TNSIF
 1. Admin Login
 2. Customer Registration
 3. Customer Login
