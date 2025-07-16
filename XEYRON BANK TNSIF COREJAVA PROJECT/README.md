@@ -3,8 +3,6 @@
 
 This project is a **console-based banking system** developed in Java. This project was created as part of a Code based Core Java study program by TNS India Foundation. It simulates essential banking operations, allowing administrators and customers to interact with the system through a text-based menu.
 
----
-
 
 This project was created as part of a study program to practice:
 
@@ -99,9 +97,20 @@ Under Libraries, click Add External JARs...
 
 Select the downloaded .jar file.
 
+---
 
-### 3️⃣ Refresh and clean the project:
+## 🏃 Running the Application
 
-Project > Clean
+Locate the ConsoleApp.java file in src/com/tnsif/bankingsystem/ui.
 
-F5 to refresh.
+Right-click > Run As > Java Application.
+
+You’ll see the console menu:
+
+----------------------------
+WELCOME TO XEYRON BANK TNSIF
+----------------------------
+1. Admin Login
+2. Customer Registration
+3. Customer Login
+4. Exit
