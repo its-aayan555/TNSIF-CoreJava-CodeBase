@@ -76,18 +76,18 @@ If you don’t have MySQL installed:
 4. Table Creation
     It will get automatically created once you run the main Java file (ConsoleApp.java).
 
+---
 
 ## 🧩 Importing the Project in Eclipse
 
-Open Eclipse.
-
-Import the project:
+### 1️⃣ Open Eclipse & Import the project:
 
 File > Import > Existing Projects into Workspace
 
 Select the folder containing the project.
 
-Add MySQL JDBC Driver:
+
+### 2️⃣ Add MySQL JDBC Driver:
 
 Download the driver: MySQL Connector/J
 
@@ -99,7 +99,8 @@ Under Libraries, click Add External JARs...
 
 Select the downloaded .jar file.
 
-Refresh and clean the project:
+
+### 3️⃣ Refresh and clean the project:
 
 Project > Clean
 
