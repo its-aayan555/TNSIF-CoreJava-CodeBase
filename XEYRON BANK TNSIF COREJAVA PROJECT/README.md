@@ -78,14 +78,14 @@ If you don’t have MySQL installed:
 
 ## 🧩 Importing the Project in Eclipse
 
-### 1️⃣ Open Eclipse & Import the project:
+#### 1️⃣ Open Eclipse & Import the project:
 
 File > Import > Existing Projects into Workspace
 
 Select the folder containing the project.
 
 
-### 2️⃣ Add MySQL JDBC Driver:
+#### 2️⃣ Add MySQL JDBC Driver:
 
 Download the driver: MySQL Connector/J
 
@@ -107,7 +107,7 @@ Right-click > Run As > Java Application.
 
 You’ll see the console menu:
 
-----------------------------
+
 WELCOME TO XEYRON BANK TNSIF
 ----------------------------
 1. Admin Login
