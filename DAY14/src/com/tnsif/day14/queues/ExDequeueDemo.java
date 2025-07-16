@@ -1,4 +1,4 @@
-package com.tnsif.day14.listsqueues;
+package com.tnsif.day14.queues;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
@@ -39,3 +39,4 @@ public class ExDequeueDemo
 
 	
 }
+

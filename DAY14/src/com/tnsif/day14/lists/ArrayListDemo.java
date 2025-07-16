@@ -1,4 +1,4 @@
-package com.tnsif.day14.listsqueues;
+package com.tnsif.day14.lists;
 
 import java.util.ArrayList;
 import java.util.Collections;
