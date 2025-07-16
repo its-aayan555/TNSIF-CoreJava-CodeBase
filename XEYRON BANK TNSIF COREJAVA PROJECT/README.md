@@ -51,14 +51,14 @@ Before running the project, you need:
 
 ## 🐬 MySQL Installation & Setup
 
-### 1️⃣ Install MySQL
+#### 1️⃣ Install MySQL
 
 If you don’t have MySQL installed:
 
 - Download: [MySQL Community Server](https://dev.mysql.com/downloads/mysql/)
 - Follow the installation instructions for your operating system.
 
-### 2️⃣ Create Database
+#### 2️⃣ Create Database
 
 1. Create a database:
     CREATE DATABASE bankingsystemdb;
@@ -107,9 +107,10 @@ Right-click > Run As > Java Application.
 
 You’ll see the console menu:
 
-
+____________________________
 WELCOME TO XEYRON BANK TNSIF
-----------------------------
+____________________________
+
 1. Admin Login
 2. Customer Registration
 3. Customer Login
