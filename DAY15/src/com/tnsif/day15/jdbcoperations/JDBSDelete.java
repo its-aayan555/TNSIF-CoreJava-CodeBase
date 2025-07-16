@@ -1,11 +1,11 @@
-package com.tnsif.day15.jdbc;
+package com.tnsif.day15.jdbcoperations;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.Statement;
 
 
-public class JDBCTable 
+public class JDBSDelete 
 {
 
 	
@@ -30,10 +30,10 @@ public class JDBCTable
 			System.out.println("Statement created succesfully");
 			
 			// SQL Query
-			String q = "CREATE TABLE student(stdid INT, name VARCHAR(20), subject VARCHAR(20), duration DOUBLE)";
+			String q = "DELETE FROM student WHERE stdid=101";
 			
 			// Execute SQL Query
-			boolean s=stmt.execute(q);
+			boolean s = stmt.execute(q);
 			
 		}
 		
@@ -44,6 +44,6 @@ public class JDBCTable
 
 		
 	}
-
+	
 	
 }
