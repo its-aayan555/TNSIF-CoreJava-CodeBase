@@ -80,22 +80,19 @@ If you don’t have MySQL installed:
 
 #### 1️⃣ Open Eclipse & Import the project:
 
-  File > Import > Existing Projects into Workspace
-
-  Select the folder containing the project.
+- File > Import > Existing Projects into Workspace
+- Select the folder containing the project.
 
 
 #### 2️⃣ Add MySQL JDBC Driver:
 
-  Download the driver: MySQL Connector/J
+1. Download the driver: 
+    MySQL Connector/J
   
-  In Eclipse:
-  
-  Right-click the project > Build Path > Configure Build Path
-  
-  Under Libraries, click Add External JARs...
-  
-  Select the downloaded .jar file.
+2. Add MySQL External JAR In Eclipse:  
+    Right-click the project > Build Path > Configure Build Path
+    Under Libraries, click Add External JARs...
+    Select the downloaded .jar file.
 
 ---
 
