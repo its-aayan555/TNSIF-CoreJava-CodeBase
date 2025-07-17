@@ -91,7 +91,9 @@ If you don’t have MySQL installed:
   
 2. Add MySQL External JAR In Eclipse:  
     Right-click the project > Build Path > Configure Build Path
+     -
     Under Libraries, click Add External JARs...
+   -
     Select the downloaded .jar file.
 
 ---
