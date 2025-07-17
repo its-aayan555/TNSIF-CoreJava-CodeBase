@@ -61,9 +61,11 @@ If you don’t have MySQL installed:
 #### 2️⃣ Create Database
 
 1. Create a database:
-    CREATE DATABASE bankingsystemdb;
+   ```ruby
+   CREATE DATABASE bankingsystemdb;
+   ```
 
-2. To avoid connection errors during initial setup, edit your DatabaseManager.java file to use your MySQL root credentials instead:
+3. To avoid connection errors during initial setup, edit your DatabaseManager.java file to use your MySQL root credentials instead:
    ```ruby
    conn = DriverManager.getConnection(
       "jdbc:mysql://localhost:3306/bankingsystemdb",
@@ -72,7 +74,7 @@ If you don’t have MySQL installed:
     );
    ```
 
-4. Table Creation
+4. Table Creation<br />
     Once you run the main Java file (ConsoleApp.java), it will automatically be created.
 
 ---
