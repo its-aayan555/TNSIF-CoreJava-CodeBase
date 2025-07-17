@@ -90,9 +90,10 @@ If you don’t have MySQL installed:
 #### 2️⃣ Add MySQL JDBC Driver:
 
 1. Download the driver: 
-    MySQL Connector/J
+    [MySQL Connector/J](https://dev.mysql.com/downloads/connector/j/)
+    Download Platform Independent ZIP File.
   
-2. Add MySQL External JAR In Eclipse:  
+3. Add MySQL External JAR In Eclipse:  
    - Right-click the project > Build Path > Configure Build Path
    - Under Libraries, click Add External JARs...
    - Select the downloaded .jar file.
