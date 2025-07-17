@@ -7,7 +7,7 @@ This project is a **console-based banking system** developed in Java. This proje
 This project was created as part of a study program to practice:
 
 - Java programming concepts (OOP, collections, exception handling)
-- Database operations (CRUD) using **MySQL**
+- Database operations (CRUD) using MySQL
 - User authentication and validation
 - Transaction processing and record management
 
@@ -65,7 +65,7 @@ If you don’t have MySQL installed:
    CREATE DATABASE bankingsystemdb;
    ```
 
-3. To avoid connection errors during initial setup, edit your DatabaseManager.java file to use your MySQL root credentials instead:
+3. To avoid connection errors during initial setup, edit your **DatabaseManager.java** file to use your MySQL root credentials instead:
    ```ruby
    conn = DriverManager.getConnection(
       "jdbc:mysql://localhost:3306/bankingsystemdb",
@@ -75,7 +75,7 @@ If you don’t have MySQL installed:
    ```
 
 4. Table Creation<br />
-    Once you run the main Java file (ConsoleApp.java), it will automatically be created.
+    Once you run the main Java file **ConsoleApp.java**, tables will be automatically created.
 
 ---
 
@@ -89,8 +89,8 @@ If you don’t have MySQL installed:
 
 #### 2️⃣ Add MySQL JDBC Driver:
 
-1. Download the driver: 
-    [MySQL Connector/J](https://dev.mysql.com/downloads/connector/j/)
+1. Download the driver: <br />
+    [MySQL Connector/J](https://dev.mysql.com/downloads/connector/j/) <br />
     Download Platform Independent ZIP File.
   
 3. Add MySQL External JAR In Eclipse:  
